@@ -29,7 +29,7 @@
   "connectors": [],
   "composeExtensions": [
     {
-      "botId": "{{MICROSOFT_APP_ID}}",
+      "botId": "e3650a76-593e-4794-b696-90e100b60d8c",
       "canUpdateConfiguration": false,
       "commands": [
         {
