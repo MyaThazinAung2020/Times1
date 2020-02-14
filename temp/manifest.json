@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "e3650a76-593e-4794-b696-90e100b60d8c",
+  "version": "0.0.1",
+  "packageName": "times1",
+  "developer": {
+    "name": "MyaThazinAung",
+    "websiteUrl": "https://times1.azurewebsites.net",
+    "privacyUrl": "https://times1.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://times1.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "Times1",
+    "full": "Times1"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "e3650a76-593e-4794-b696-90e100b60d8c",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "times1MessageExtension",
+          "title": "Times1 Message Extension",
+          "description": "Add a clever description here",
+          "initialRun": true,
+          "type": "action",
+          "context": [
+            "compose"
+          ],
+          "fetchTask": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "times1.azurewebsites.net"
+  ]
+}
